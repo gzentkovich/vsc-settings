@@ -1,0 +1,55 @@
+{
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "java.semanticHighlighting.enabled": true,
+  "workbench.colorTheme": "Slime",
+  "boot-java.remote-apps": [
+    
+  ],
+  "vetur.validation.template": false,
+  "eslint.validate": ["vue", "html", "javascript", "typescript"],
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "onlySnippets",
+  "editor.lineNumbers": "relative",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+  "editor.minimap.enabled": false,
+  "typescript.tsserver.watchOptions": {},
+  "vetur.grammar.customBlocks": {},
+  "vetur.completion.useScaffoldSnippets": false,
+  "vetur.format.defaultFormatterOptions": {},
+  "bracketPairColorizer.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}; opacity: 0.5"
+  ],
+  "workbench.settings.openDefaultKeybindings": true,
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 16
+}
